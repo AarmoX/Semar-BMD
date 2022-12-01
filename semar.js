@@ -362,4 +362,4 @@ break
 default:
 }} catch (e) {
 console.log(e)
-semar.sendMessage("6285866295942@s.whatsapp.net", {text:e})}}
+semar.sendMessage("6285172331540@s.whatsapp.net", {text:e})}}
