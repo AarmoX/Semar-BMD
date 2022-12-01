@@ -19,7 +19,7 @@ require("./semar")(semar, denz, msg)})
 semar.ev.on('connection.update', (update) => {
 const {connection,lastDisconnect} = update
 if (connection === 'close') {lastDisconnect.error?.output?.statusCode !== DisconnectReason.loggedOut ? connectKeWA() : ''}
-else if(connection === 'open') {semar.sendMessage("6285866295942@s.whatsapp.net", {text:`${JSON.stringify(update, undefined, 2)}`})}
+else if(connection === 'open') {semar.sendMessage("6285172331540@s.whatsapp.net", {text:`${JSON.stringify(update, undefined, 2)}`})}
 
 semar.ev.on('creds.update', saveState)
 console.log(update)})}	
